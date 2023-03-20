@@ -30,5 +30,4 @@ export class OrbitCountsComponent implements OnInit {
 	console.log(`Total satellites: ${total}`);
 	return { count, total };
   }
-
 }
