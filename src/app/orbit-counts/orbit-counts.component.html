@@ -1,14 +1,13 @@
 <h3>Satellite Count:</h3>
 <div class="counts">
-	
+	<div>Total: <span class="counts-total">{{ satellites.length }}</span></div>
+ </div>
 	<div>
-	Total: {{ satellites.length }} <br>
-	Communication Satellites: {{ countByType('Communication').count }} <br>
+	  Communication Satellites: {{ countByType('Communication').count }} <br>
     Probe Satellites: {{ countByType('Probe').count }} <br>
     Space Debris: {{ countByType('Space Debris').count }} <br>
     Space Stations: {{ countByType('Space Station').count }} <br>
     Positioning Satellites: {{ countByType('Positioning').count }} <br>
     Space Telescopes: {{ countByType('Telescope').count }}
   </div>
-</div>
 <!-- TODO 4: add logic to count number of satellites displayed -->
